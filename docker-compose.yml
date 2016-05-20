@@ -27,10 +27,10 @@ mysql:
     volumes_from:
         - data
     environment:
-        MYSQL_ROOT_PASSWORD: secret
-        MYSQL_DATABASE: project
-        MYSQL_USER: project
-        MYSQL_PASSWORD: project
+        MYSQL_ROOT_PASSWORD: pass
+        MYSQL_DATABASE: project0
+        MYSQL_USER: project0
+        MYSQL_PASSWORD: project0
 
 data:
     image: mysql:latest
